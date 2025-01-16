@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+  width: 100vw;  /* Set to 100% of the viewport width */
+  height: 150vh; /* Set to 100% of the viewport height */
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f49120;
+  overflow: hidden; /* Prevent scrolling if the content exceeds viewport */
+}
+
+.content {
+  text-align: center;
+  width: 100%; /* Set to 100% of the parent width */
+  height: calc(100vh - 80px - 30px); /* Adjust height based on header and margin */
+  overflow-y: auto; /* Allow scrolling if content exceeds the height */
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.frontPageButton {
+  width: 90%;
+  margin-top: 20px;
+  background-color: white;
+  color:#28282a;
+}
+
+.frontPageInput{
+  width: 90%;
+  margin-top: 20px;
+  background-color: white;
+  color:#28282a;
+}
+
+.frontPageBottom {
+  align-items: flex-end;
+  color: white;
+  font-size: small;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+  gap: 5px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  color: #28282a;
+}
+
+.h4 {
+  color: #28282a;
+  padding-bottom: 50px;
+}
+a{
+  color: #28282a;
+}
+a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.headerLogo {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.dropdown {
+  margin-right: 20px;
+}
+
+.content {
+  text-align: center;
+  width: 350px;
+  height: 520px;
+  overflow-y: auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.mnemonic {
+  color: #faad14;
+  background: #fffbe6;
+  border: 1px solid #ffe58f;
+  padding: 5px;
+  text-align: justify;
+  width: 310px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.seedPhraseContainer {
+  width: 310px;
+  min-height: 180px;
+  padding: 0px;
+  margin-top: 30px;
+}
+
+.walletName {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.logoutButton {
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  right: 5px;
+  top: 0px;
+  border-radius: 100px;
+}
+
+.logoutButton:hover {
+  background-color: rgba(0, 0, 0, 0.036);
+  cursor: pointer;
+}
+
+.walletView {
+  width: 350px;
+  padding: 10px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.sendRow {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+}
+
+.headerLogo {
+  width: 150px; /* Adjust size as needed */
+  height: 150px; /* Adjust size as needed */
+  transition: transform 0.3s ease-in-out; /* Smooth rotation effect */
+  cursor: pointer; /* Indicate interactivity */
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
