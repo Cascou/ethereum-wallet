@@ -1,7 +1,7 @@
 # Basic Crypto Wallet (Work in Progress)
 
 ## Wallet Overview
-This basic ethereum-based self custody wallet, allows users to send native currency(ETH) by signing raw transactions and transmitting the hash through RPC providers. The aim of this project, is to create a basic self custody wallet without relying on external Web3 libraries
+- This basic ethereum-based self custody wallet, allows users to send native currency(ETH) by signing raw transactions and transmitting the hash through RPC providers. The aim of this project, is to create a basic self custody wallet without relying on external Web3 libraries
 ---------------------------------------------------------------------
 ## Core Features
 
